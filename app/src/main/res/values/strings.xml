@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Akses Device</string>
+    <string name="sms">sms</string>
+    <string name="wifi">wifi</string>
+    <string name="browser">browser</string>
+    <string name="bl">bluetooth</string>
+    <string name="tl">telepon</string>
+    <string name="audiorec">audio recorder</string>
+    <string name="audiomanager">audio manager</string>
+    <string name="camera">camera</string>
+    <string name="email">email</string>
+    <string name="tts">text to spech</string>
+    <string name="on">ON</string>
+    <string name="of">OFF</string>
+    <string name="list">LIST</string>
+    <string name="visible">VISIBLE</string>
+    <string name="goToBrowser">Go To Browser</string>
+    <string name="call">CALL</string>
+    <string name="dialcall">DIAL CALL</string>
+    <string name="listcontact">LIST CONTACT</string>
+</resources>

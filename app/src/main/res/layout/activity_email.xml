@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    tools:context=".activity.Email">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to :"/>
+
+    <EditText
+        android:id="@+id/edtto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan alamat email tujuan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="subject :"/>
+
+    <EditText
+        android:id="@+id/edtsubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan subject email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="message :"/>
+
+    <EditText
+        android:id="@+id/edtmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan isi pesan email"
+        android:minLines="5"
+        android:gravity="top"/>
+
+
+</LinearLayout>
